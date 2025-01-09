@@ -133,7 +133,11 @@
 
 **<프로젝트 결과물 시연 예시 영상>**
 
-https://github.com/user-attachments/assets/e209fc93-c8fe-41c2-85e8-ce6b988b16a5
+
+
+
+https://github.com/user-attachments/assets/e56bc907-ed79-439c-865d-62b1aee3f547
+
 
 
 
