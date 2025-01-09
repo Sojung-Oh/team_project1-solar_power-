@@ -38,47 +38,59 @@
 
 ## 📋 활용한 데이터 개요
 
--2020년 8월 기준 대한민국 전 지역 위성 좌표 일사량 데이터
+- 2020년 8월 기준 대한민국 전 지역 위성 좌표 일사량 데이터
 
--> [한국에너지기술연구원_신재생자원지도데이터_태양자원_천리안2호_수평면전일사량_20200831](https://www.data.go.kr/data/15066438/fileData.do)
+▶ [한국에너지기술연구원_신재생자원지도데이터_태양자원_천리안2호_수평면전일사량_20200831](https://www.data.go.kr/data/15066438/fileData.do)
 
- -대한민국 태양광 발전소 현황 (2024년 기준)
+ - 대한민국 태양광 발전소 현황 (2024년 기준)
+
+▶ [재생에너지 클라우드플랫폼 태양광발전소 현황](https://recloud.energy.or.kr/present/sub3_1_2.do)
+
+- 대한민국 2020년_8월_발전량
+
+▶ [DATA.go.kr 한국전력거래소_지역별 시간별 태양광 및 풍력 발전량(풍력발전량 제외)](https://www.data.go.kr/data/15065269/fileData.do)
+
+- 대한민국 시도별_면적
+
+▶ [대한민국 국토현황(행정구역별)](https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=2728)
+
+- 대한민국 시도별 산업용 전력 사용량
+
+▶ [EPSIS전력통계정보시스템 시도별 용도별 발전판매](https://epsis.kpx.or.kr/epsisnew/selectEksaAscAsaChart.do?menuId=060405)
+
+▶ [에너지마켓플레이스 전력데이터 개방 포털시스템 산업분류별 전력사용량](https://bigdata.kepco.co.kr/cmsmain.do?scode=S01&pcode=000167&pstate=L&redirect=Y)
 
 
- 대한민국 2020년_8월_발전량
+<데이터 활용 다이어그램>
 
- 대한민국 시도별_면적
-
- 대한민국 시도별 산업용 전력 사용량
-
-
-▶ 재생에너지 클라우드플랫폼 태양광발전소 현황
-
-▶ https://recloud.energy.or.kr/present/sub3_1_2.do
-
-▶ DATA.go.kr 한국전력거래소_지역별 시간별 태양광 및 풍력 발전량(풍력발전량 제외)
-
-▶ https://www.data.go.kr/data/15065269/fileData.do
-
-▶ EPSIS전력통계정보시스템 시도별 용도별 발전판매
-
-▶ https://epsis.kpx.or.kr/epsisnew/selectEksaAscAsaChart.do?menuId=060405
-
-▶ 대한민국 국토현황(행정구역별)
-
-▶ https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=2728
-
-▶ 에너지마켓플레이스 전력데이터 개방 포털시스템 산업분류별 전력사용량
-
-▶ https://bigdata.kepco.co.kr/cmsmain.do?scode=S01&pcode=000167&pstate=L&redirect=Y
-
+![image](https://github.com/user-attachments/assets/ec9abdbf-a340-470e-899d-5622e3914927)
 
 
 ## 데이터 분석 및 시각화 구현 결과 설명
 
+**행정동별 시각화 지도 2개, 광역시/도별 시각화 지도 4개를 나타냤으며, 
+광역시/도별 전기 이용과 태양광 발전량 통계를 확인 가능한 인터랙티브 지도를 제작함** 
+
+<행정동별 시각화 지도>
+
+(1) 2020년 8월 일사량
+
+-마우스 커서가 위치하는 곳에 따라 해당 지역명과 단위 면적당 평균 월 합계 일사량이 팝업창에 표시된다.
+
+-지역별로 단위 면적당 평균 월 합계 일사량에 따라 컬러맵으로 지도를 컬러링한다.
+
+![1](https://github.com/user-attachments/assets/152b397b-0d9d-49f3-a3e0-2df957ce6b7d)
+
+(2)
+
+
+## 내가 맡은 역할
+
+## 결과 분석
+
 ## 기대 효과 및 활용 분야
 
-## 향후 연구 과제
+## 연구 한계 및 향후 연구 과제
 
 ## 📖 README.md 문서 참고 문헌
 -"[보도자료] 2019년 온실가스 배출량 전년 대비 3.5% 감소, 7억 137만 톤." (2025년 1월 8일). 환경부 온실가스종합정보센터. 2021년 12월 31일 수정, https://www.gir.go.kr/home/board/read.do?pagerOffset=0&maxPageItems=10&maxIndexPages=10&searchKey=&searchValue=&menuId=11&boardId=164&boardMasterId=4&boardCategoryId=.
