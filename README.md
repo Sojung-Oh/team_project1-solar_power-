@@ -141,7 +141,14 @@ https://github.com/user-attachments/assets/e56bc907-ed79-439c-865d-62b1aee3f547
 
 
 
-## 내가 맡은 역할
+## ✋  내가 맡은 역할
+
+
+### 데이터 수집 및 전처리
+
+- 
+
+
 
 ## 결과 분석
 
