@@ -36,6 +36,38 @@
 
 -Python 3.12.8
 
+
+## ☑️ 사용한 파이썬 라이브러리
+
+- pandas
+
+- geopandas
+
+- folium (IFrame)
+- 
+- folium.plugins (GroupedLayerControl)
+
+- shapely.geometry (Point)
+
+- matplotlib (colormaps)
+
+- matplotlib.colors (Normalize, rgb2hex)
+
+- matplotlib.pyplot
+
+- seaborn
+
+- plotly.graph_object
+
+- plotly.express
+
+- plotly.io
+
+- plotly.subplots (make_subplots)
+  
+
+
+
 ## 📋 활용한 데이터 개요
 
 - 2020년 8월 기준 대한민국 전 지역 위성 좌표 일사량 데이터
@@ -200,6 +232,7 @@ https://github.com/user-attachments/assets/e56bc907-ed79-439c-865d-62b1aee3f547
 프로젝트 결과를 활용한다면 **태양광 발전이 용이한 지역을 판단하여 이 지역에 지원을 확대하는 정책을 제안**할 수 있을 것이다.
 
 **<재생에너지 활용 장려 정책>**
+
 -각 지역의 산업별 전력 사용량 비율을 확인하여, 산업계의 전력 사용 중 일정 비율 이상을 재생 에너지로 사용하도록 권고하는 정책을 제안 할 때 어느 산업을 타깃으로 설정하면 좋을지 구상할 수 있다.
 
 **+) 유사한 기존 정책**
@@ -216,7 +249,9 @@ https://github.com/user-attachments/assets/e56bc907-ed79-439c-865d-62b1aee3f547
 
 ## 연구 한계 및 향후 연구 과제
 
+- 일부 데이터의 부족으로 인해 가장 최신 데이터가 아닌 2020년 8월 기준으로 분석을 진행한 것이 아쉬웠다.
 
+- 재생에너지는 발전 시설에서 생산하는 것뿐만 아니라 에너지를 타지역으로 수송하는 것도 고려해야 한다. 한 예로, 전남 지방에서 볕이 좋은 가을날 과잉 생산된 에너지는 전기 수요량이 많은 수도권이나 타지역에 수송되지 못하고 버려지게 된다. 이는 송전망이 충분히 확충되지 못해서 발생하는 문제로, 보다 실용적인 참고 지표를 만들기 위해서는 후속 연구를 진행할 경우 송전망에 대한 데이터도 반영하면 좋을 것이라는 생각이 든다. 
 
 
 ## 📖 README.md 문서 참고 문헌
